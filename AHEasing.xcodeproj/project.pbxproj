@@ -44,7 +44,7 @@
 		80521A781398175D007386E6 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
 		80521A791398175D007386E6 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
 		80521A7D1398179C007386E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		806EB7EB138F91A700E2D4A7 /* AHEasing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHEasing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806EB7EB138F91A700E2D4A7 /* AHEasing-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AHEasing-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		806EB7EF138F91A700E2D4A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		806EB7F1138F91A700E2D4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		806EB7F3138F91A700E2D4A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,7 +157,7 @@
 		806EB7EC138F91A700E2D4A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				806EB7EB138F91A700E2D4A7 /* AHEasing.app */,
+				806EB7EB138F91A700E2D4A7 /* AHEasing-Sample.app */,
 				FF1065D81671B332007CF331 /* libAHEasing.a */,
 			);
 			name = Products;
@@ -204,7 +204,7 @@
 			);
 			name = "AHEasing-Sample";
 			productName = AHEasing;
-			productReference = 806EB7EB138F91A700E2D4A7 /* AHEasing.app */;
+			productReference = 806EB7EB138F91A700E2D4A7 /* AHEasing-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FF1065D71671B332007CF331 /* AHEasing */ = {
@@ -464,6 +464,7 @@
 				FF1065E31671B332007CF331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
